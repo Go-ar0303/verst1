@@ -9,37 +9,51 @@
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <script src='main.js'></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="index2.html">
+    <link rel="stylesheet" href="index3.html">
+    <link rel="stylesheet" href="index4.html">
+    
 </head>
 
 <body>
     <div class="header">
-        <div class="canteiner">
+        <div class="container">
             <div class="header-line">
                 <div class="header-logo">
                     <img src="LOGO.png" alt="">
+                    <div class="ti">
+
+                        <div id="temp"></div>
+                        <div id="time"></div>
+                        <div id="elevation"></div>
+
+                    </div>
+
 
                 </div>
 
                 <div class="nav">
-                    <a class="nav-item" href="@">ГЛАВНАЯ</a>
-                    <a class="nav-item" href="@">МЕНЮ</a>
-                    <a class="nav-item" href="@">МЕНЮ</a>
-                    <a class="nav-item" href="@">БРОНЬ</a>
+                    <a class="nav-item" href="index.html">ГЛАВНАЯ</a>
+                    <a class="nav-item" href="index2.html">МЕНЮ</a>
+
+                    <a class="nav-item" href="index3.html">БРОНЬ</a>
                 </div>
 
+
                 <div class="cart">
-                    <a href="#">
+                    <a href="index4.html">
                         <img src="cart.png" alt="">
                     </a>
                 </div>
                 <div class="phone">
                     <div class="phone-holder">
-                        <div class="phone-img">
-                            <img src="phone.png" alt="">
+                        <div class="phone-img" id="call">
+                            <img src="phone.png" alt="" >
                         </div>
                         <div class="number">
-                            <a class="num" href="#">+999-888-76-54</a>
+                            <a class="num" href="tel:+999-888-76-54">+999-888-76-54</a>
 
                         </div>
                     </div>
@@ -49,7 +63,29 @@
                     </div>
                 </div>
                 <div class="btn">
-                    <a class="button" href="#">ЗАКАЗ СТОЛИКА</a>
+                    <a class="button" onclick="document.getElementById('id01').style.display='block'"
+                        href="index3.html">ЗАКАЗ СТОЛИКА</a>
+                </div>
+
+
+
+
+
+                <div class="burg-menu">
+
+                    <button id="burger">
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <img src="Group.png" alt="">
+                        </a>
+
+                    </button>
+                    <div id="menu" class="burg-slide">
+
+                        <a class="nav-item block " href="index.html">ГЛАВНАЯ</a>
+                        <a class="nav-item block" href="index2.html">МЕНЮ</a>
+                        <a class="nav-item block" href="index3.html">БРОНЬ</a>
+
+                    </div>
                 </div>
             </div>
         </div>
@@ -57,14 +93,328 @@
         <div class="header-down">
             <div class="header-title">
                 Добро пожаловать в
-                <div class="header-subtitile">
+                <div class="header-subtitle">
                     Наш ресторан
+                </div>
+                <div class="header-suptitle">
+                    ДОМ ЛУЧШЕЙ ЕДЫ
+                </div>
+                <div class="header-btn">
+                    <a href="index2.html" class="header-button" id="myLink"> VIEW MENU</a>
                 </div>
             </div>
         </div>
-    
+
     </div>
-    
+    <div class="cards">
+        <div class="container">
+            <div class="card-holder">
+                <div class="card">
+                    <div class="card-image">
+                        <img class="card-img" src="Mask Group.png" alt="">
+                    </div>
+                    <div class="card-title">
+                        Магическая <span> Атмосфера </span>
+                    </div>
+                    <div class="card-desc">
+                        В нашем заведении царит магическая атмосфера
+                        наполненная вкусными ароматами
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img class="card-img" src="Mask Group.png" alt="">
+                    </div>
+                    <div class="card-title">
+                        Лучшее качество <span> Еды </span>
+                    </div>
+                    <div class="card-desc">
+                        Качество нашей<br>
+                        Еды - отменное!
+
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img class="card-img" src="Mask Group.png" alt="">
+                    </div>
+                    <div class="card-title">
+                        Недорогая <span> Еда </span>
+                    </div>
+                    <div class="card-desc">
+                        Стоимость нашей Еды
+                        зависит только от ее
+                        количества. Качество
+                        всегда на высоте!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="history">
+        <div class="container">
+            <div class="history-holder">
+                <div class="historyinfo">
+                    <div class="history-title">
+                        Наша <span> История</span>
+                    </div>
+                    <div class="history-desc">
+                        Как и у любого другого самобытного места, у нас есть своя, особая история. Идея ресторана пришла
+                        основателям
+                        неожиданно. Во время прогулки по лесу создатель нашего ресторана застрял в сотнях километров от
+                        ближайшего
+                        населенного пункта. Вдали от цивилизации и связи им пришлось навремя обустровать себе нехитрый
+                        быт,
+                        добывать
+                        и готовить себе еду.
+                    </div>
+
+                    <div class="history-number">
+                        <div class="number-item">
+                            93 <span>Напитки</span>
+                        </div>
+                        <div class="number-item">
+                            206 <span>Еда</span>
+                        </div>
+                        <div class="number-item">
+                            71
+                            <span>Закуски</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="history-images">
+                    <img class="img-1" src="1.jpg" alt="">
+                    <img class="img-2" src="3.jpg" alt="">
+                    <img class="img-3" src="2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="black-blog">
+        <div class="container">
+            <div class="blog-holder">
+                <div class="left">
+                    <div class="left-title">Отпразднуйте в одном из<br>
+                        самых лучших ресторанов.
+                    </div>
+                    <div class="left-text">Только в этом месяце бизнес-ланч от 250 ₽</div>
+
+                </div>
+                <div class="right">
+                    <div class="right-button">
+                        <a href="index3.html" class="right-btn">ЗАКАЗ СТОЛИКА</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="min-menu">
+        <div class="container">
+            <div class="min-menu-title">
+                Наши <span> Блюда</span>
+            </div>
+            <div class="burgers">
+                <div class="burgers-img">
+                    <img src="pizza.jpg" alt="">
+                </div>
+                <div class="burgers-items">
+                    <div class="burger-item">
+                        <img src="pi.jpg" alt="">
+                        <div class="burger-text">
+                            Гамбургер мини---------------------220 ₽
+                        </div>
+                    </div>
+
+
+                    <div class="burger-item">
+                        <img src="pi.jpg" alt="">
+                        <div class="burger-text">
+                            Гамбургер мини---------------------220 ₽
+                        </div>
+                    </div>
+
+                    <div class="burger-item">
+                        <img src="pi.jpg" alt="">
+                        <div class="burger-text">
+                            Гамбургер мини---------------------220 ₽
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="menu">
+        <div class="container">
+            <div class="menu-title">
+                Наше меню
+            </div>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <div class="menu-image">
+                        <img src="burg.png" alt="" class="menu-img">
+
+                    </div>
+                    <div class="menu-text">
+                        Гамбургер макси
+                    </div>
+                    <div class="menu-subtext">
+                        Максимально толстый <br>
+                        слой мяса
+                    </div>
+                    <div class="menu-button">
+                        <a href="index4.html" class="menu-btn">ЗАКАЗАТЬ</a>
+                    </div>
+
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-image">
+                        <img src="burg.png" alt="" class="menu-img">
+
+                    </div>
+                    <div class="menu-text">
+                        Гамбургер макси
+                    </div>
+                    <div class="menu-subtext">
+                        Максимально толстый <br>
+                        слой мяса
+                    </div>
+                    <div class="menu-button">
+                        <a href="index4.html" class="menu-btn">ЗАКАЗАТЬ</a>
+                    </div>
+
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-image">
+                        <img src="burg.png" alt="" class="menu-img">
+
+                    </div>
+                    <div class="menu-text">
+                        Гамбургер макси
+                    </div>
+                    <div class="menu-subtext">
+                        Максимально толстый <br>
+                        слой мяса
+                    </div>
+                    <div class="menu-button">
+                        <a href="index4.html" class="menu-btn">ЗАКАЗАТЬ</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="comment">
+        <div class="container">
+            <div class="comment-text">
+                Я надолго запомню мой День рождения, проведённый в этом ресторане! Кусочек родной Армении!!! Отдельное
+                спасибо за комплепент в виде фруктовой тарелки. Будем рекомендовать этот ресторан своим друзьям и
+                родственникам также за рубежом, путешествующих в Санкт-Петербург!!!
+            </div>
+            <div class="comment-image">
+                <img src="comm.png" alt="" class="comment-img">
+            </div>
+            <div class="comment-type">Посетитель</div>
+            <div class="comment-name">Николай</div>
+        </div>
+    </div>
+
+
+    <div class="gallery">
+        <div class="container">
+            <div class="gallery-title">
+                Галерея<span> Блюд</span>
+            </div>
+            <div class="gallery-content">
+                <div class="gallery-left">
+                    <div class="gallery-up">
+                        <img class="img-hig" src="table-71380_1280 1.jpg" alt="" class="gal">
+                    </div>
+                    <div class="gallery-down">
+                        <img src="coffee.jpg" alt="" class="gal">
+                        <img src="soup.jpg" alt="" class="gal">
+
+                    </div>
+                </div>
+                <div class="gallery-right">
+                    <div class="gallery-up">
+                        <img src="coffee.jpg" alt="" class="gal">
+                        <img src="soup.jpg" alt="" class="gal">
+                    </div>
+                    <div class="gallery-down">
+                        <img class="img-hig" src="table-71380_1280 1.jpg" alt="" class="gal">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cook">
+        <div class="container">
+            <div class="cook-title">
+                Наши <span> Повара</span>
+            </div>
+            <div class="cook-content">
+                <img src="01.jpg" alt="">
+                <img src="02.jpg" alt="">
+                <img src="03.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        Copyright 2023
+    </div>
+
+    <script>
+        
+
+
+        fetch("https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&hourly=temperature_2m,precipitation_probability,precipitation&daily=precipitation_probability_max&current_weather=true&timezone=Europe%2FMoscow&forecast_days=1")
+            .then((response) => {
+                return response.json();
+            })
+            .then((data) => {
+                console.log(data)
+
+                let temp = document.getElementById("temp");
+                let time = document.getElementById("time");
+                let elevation = document.getElementById("elevation");
+
+                temp.innerText = "Температкра: " + data['current_weather']['temperature'];
+                time.innerText = "Время: " + data['current_weather']['time'];
+                elevation.innerText = "Вероятность осадков: " + data['daily']['precipitation_probability_max'];
+                //sunset.innerText = "Закат: " + data['daily']['sunset'];
+
+
+
+            });
+        function myFunction() {
+            let x = document.getElementById("menu");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+
+        const coll = ()=>{
+
+        }
+
+
+    </script>
+
+
 </body>
 
 </html>

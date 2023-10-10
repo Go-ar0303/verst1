@@ -1,0 +1,51 @@
+
+.center{
+    display: flex;
+    margin-bottom: 64px;
+    
+    padding: 10px;
+}
+.tablink{
+    padding: 15px;
+    font-size: 35px;
+    align-items: center;
+}
+@media (max-width: 750px)  {
+    .center{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+
+    }
+    
+}
+.row{
+    align-items: center;
+    border: 1px solid;
+    border-color: rgb(85, 90, 79);
+}
+.col{
+    padding: 15px;
+
+}
+.col:hover{
+    color: brown;
+    font-size: 25px;
+    
+}
+
+.container{
+    padding: 20px;
+
+} 
+
+.text{
+    color: rgb(83, 78, 78);
+}
+img{
+    width: 210px;
+    height: 250px;
+}
+.red{
+    color: red;
+}

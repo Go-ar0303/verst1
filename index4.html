@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+
+<body>
+    <div class="sum">
+
+        Общая сумма: <span id="sum">0</span><br>
+        <span id="sum1"></span>
+    </div>
+
+
+    <div id="card-select">
+        <div class="shopping-cart">
+            <!-- Title -->
+            <div class="title">
+                Shopping
+            </div>
+
+            <!-- Товар #1 -->
+            <div class="item">
+               
+                <div class="image">
+                    <img src="0001.jpg" alt=" mini-Burgers" />
+                </div>
+
+                <div class="description">
+                    <span> mini-Burgers</span>
+
+                </div>
+
+                <div class="quantity">
+                    <button class=" btn plus" type="button" name="button" data-id="s1">
+                        +
+                      </button>
+                     
+                      <button class=" btn minus" type="button" name="button" data-id="s1">
+                        -
+                      </button>
+                </div>
+
+                <div class="total-price">300 RUB</div>
+            </div>
+
+            <!-- Товар #2 -->
+            <div class="item">
+               
+
+                <div class="image">
+                    <img src="0002.jpg" alt="" />
+                </div>
+
+                <div class="description">
+                    <span>Burgers clasic</span>
+
+                </div>
+
+                <div class="quantity">
+                    <button class="btn plus" type="button" name="button" data-id="s2">
+                        +
+                      </button>
+                      
+                      <button class=" btn minus" type="button" name="button" data-id="s2">
+                        -
+                      </button>
+                </div>
+
+                <div class="total-price">360 RUB</div>
+            </div>
+
+
+            <!-- Товар #3 -->
+            <div class="item">
+               
+
+                <div class="image">
+                    <img src="0003.jpg" alt="" />
+                </div>
+
+                <div class="description">
+                    <span>max-Burgers</span>
+
+                </div>
+
+                <div class="quantity">
+                    <button class=" btn plus" type="button" name="button" data-id="s3">
+                        +
+                      </button>
+                     
+                      <button class="btn minus" type="button" name="button" data-id="s3">
+                        -
+                      </button>
+                </div>
+
+                <div class="total-price">320 RUB</div>
+            </div>
+
+            <!-- Товар #4 -->
+            <div class="item">
+                
+                <div class="image">
+                    <img src="001.jpg" alt="" />
+                </div>
+
+                <div class="description">
+                    <span> Margherita</span>
+
+                </div>
+
+                <div class="quantity">
+                    <button class="btn plus" type="button" name="button" data-id="s4">
+                       +
+                      </button>
+                      
+                      <button class="btn minus" type="button" name="button" data-id="s4">
+                        -
+                      </button>
+                </div>
+
+                <div class="total-price">750 RUB</div>
+            </div>
+
+            <!-- Товар #5 -->
+            <div class="item">
+               
+
+                <div class="image">
+                    <img src="002.jpg" alt="" />
+                </div>
+
+                <div class="description">
+                    <span> Formaggio</span>
+
+                </div>
+
+                <div class="quantity">
+                    <button class="btn plus" type="button" name="button" data-id="s5">
+                        +
+                      </button>
+                      
+                      <button class="btn minus" type="button" name="button" data-id="s5">
+                        -
+                      </button>
+                </div>
+
+                <div class="total-price">625 RUB</div>
+            </div>
+
+            <!-- Товар #6 -->
+            <div class="item">
+                
+                <div class="image">
+                    <img src="003.jpg" alt="" />
+                </div>
+
+                <div class="description">
+                    <span>Chicken</span>
+
+                </div>
+
+                <div class="quantity">
+                    <button class="btn plus" type="button" name="button" data-id="s6">
+                       +
+                      </button>
+                      
+                      <button class="btn minus" type="button" name="button" data-id="s6">
+                        -
+                      </button>
+                </div>
+
+                <div class="total-price">560 RUB</div>
+            </div>
+            <!-- Товар #7 -->
+            <div class="item">
+                
+
+                <div class="image">
+                    <img src="004.png" alt="" />
+                </div>
+
+                <div class="description">
+                    <span> Meat Town</span>
+
+                </div>
+
+                <div class="quantity">
+                    <button class="btn plus" type="button" name="button" data-id="s7">
+                        +
+                      </button>
+                      
+                      <button class="btn minus" type="button" name="button" data-id="s7">
+                        -
+                      </button>
+                </div>
+
+                <div class="total-price">800 RUB</div>
+            </div>
+
+
+            <!-- Товар #8 -->
+            <div class="item">
+               
+
+                <div class="image">
+                    <img src="100.jpg" alt=" Lasagna" />
+                </div>
+
+                <div class="description">
+                    <span> Lasagna</span>
+
+                </div>
+
+                <div class="quantity">
+                    <button class="btn plus" type="button" name="button" data-id="s8">
+                        +
+                      </button>
+
+                      <button class=" btn minus" type="button" name="button" data-id="s8">
+                        -
+                      </button>
+                </div>
+
+                <div class="total-price">100 RUB</div>
+            </div>
+
+
+            <!-- Товар #9 -->
+            <div class="item">
+                
+
+                <div class="image">
+                    <img src="101.jpg" alt="Ravioli" />
+                </div>
+
+                <div class="description">
+                    <span> Ravioli</span>
+
+                </div>
+
+                <div class="quantity">
+                    <button class="btn plus" type="button" name="button" data-id="s9">
+                        +
+                      </button>
+                      
+                      <button class="btn minus" type="button" name="button" data-id="s9">
+                       -
+                      </button>
+                </div>
+
+                <div class="total-price">460 RUB</div>
+            </div>
+
+            <!-- Товар #10 -->
+            <div class="item">
+               
+
+                <div class="image">
+                    <img src="102.jpg" alt=" Pasta clasic" />
+                </div>
+
+                <div class="description">
+                    <span> Pasta clasic</span>
+
+                </div>
+
+                <div class="quantity">
+                    <button class="btn plus" type="button" name="button" data-id="s10">
+                        +
+                      </button>
+                      
+                      <button class="btn minus" type="button" name="button" data-id="s10">
+                        -
+                      </button>
+                </div>
+
+                <div class="total-price">620 RUB</div>
+            </div>
+
+            <!-- Товар #11 -->
+            <div class="item">
+                
+
+                <div class="image">
+                    <img src="103.jpg" alt="Spaghetti Classica" />
+                </div>
+
+                <div class="description">
+                    <span> Spaghetti Classica</span>
+
+                </div>
+
+                <div class="quantity">
+                    <button class="btn plus" type="button" name="button" data-id="s11">
+                       +
+                      </button>
+                     
+                      <button class="btn minus" type="button" name="button" data-id="s11">
+                       -
+                      </button>
+                </div>
+
+                <div class="total-price">550 RUB</div>
+            </div>
+
+
+
+
+
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+    <!----select id="goods">
+        <option value="-">--</option>
+        <option value="300" data-id="1"> mini-Burgers</option>
+        <option value="360" data-id="2">Burgers clasic</option>
+        <option value="320" data-id="3">max-Burgers</option>
+
+        <option value="750" data-id="4">Margherita</option>
+        <option value="625" data-id="5">Formaggio</option>
+        <option value="560" data-id="6">Chicken</option>
+
+        <option value="800" data-id="7"> Meat Town</option>
+        <option value="100" data-id="8"> Lasagna</option>
+        <option value="460" data-id="9"> Ravioli</option>
+        <option value="620" data-id="10">Pasta clasic</option>
+        <option value="550" data-id="11">Spaghetti Classica</option>
+    </select--->
+
+
+
+
+
+
+
+
+    <script src="main4.js">
+
+
+    </script>
+
+
+</body>
+
+</html>

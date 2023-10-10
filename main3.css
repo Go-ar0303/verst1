@@ -1,0 +1,16 @@
+
+*{
+    background: url(0001.jpg);
+}
+input{
+    margin: 18px;
+    font-size: 22px;
+}
+label{
+    font-size: 26px;
+}
+.btn{
+    width: 250px;
+    padding: 7px;
+    font-size: 20px;
+}
