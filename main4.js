@@ -69,7 +69,7 @@ document.onclick = event => {
         minusFunction(event.target.dataset.id);
     }
 }
-const sum = document.querySelector("#sum");
+let sum;
 
 //uvelichit
 
@@ -113,7 +113,7 @@ const renderCart = () => {
 renderCart();
 
 const sumFunction = cart =>{
-    let id = cart[id]++;
+    let id = cart++;
     plusFunction();
 
     renderCart();
